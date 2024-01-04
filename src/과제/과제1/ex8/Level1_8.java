@@ -20,6 +20,7 @@ public class Level1_8 {
 		//입력
 		int i=1;
 		String wirter=scanner.next();
+		String dumy=scanner.nextLine();
 		String content=scanner.nextLine();
 		System.out.printf("[%d]작성자:%s\n",i,wirter);
 		System.out.printf("[%d]방문록:%s\n",i,content);
@@ -33,6 +34,7 @@ public class Level1_8 {
 		//2회
 		//입력
 		wirter=scanner.next();
+		dumy=scanner.nextLine();
 		content=scanner.nextLine();
 		System.out.printf("[%d]작성자:%s\n",i,wirter);
 		System.out.printf("[%d]방문록:%s\n",i,content);
@@ -40,13 +42,14 @@ public class Level1_8 {
 		output+= " 2\t"+boardlist+"\n";
 		//출력
 		System.out.print(header);
-		System.out.printf("%s\n",output);
+		System.out.printf("%s",output);
 		System.out.print(footer);
 		i++;
 
 		//3회
 		//입력
 		wirter=scanner.next();
+		dumy=scanner.nextLine();
 		content=scanner.nextLine();
 		System.out.printf("[%d]작성자:%s\n",i,wirter);
 		System.out.printf("[%d]방문록:%s\n",i,content);
@@ -54,13 +57,14 @@ public class Level1_8 {
 		output+= " 3\t"+boardlist+"\n";
 		//출력
 		System.out.print(header);
-		System.out.printf("%s\n",output);
+		System.out.printf("%s",output);
 		System.out.print(footer);
 		i++;
 
 		//4회
 		//입력
 		wirter=scanner.next();
+		dumy=scanner.nextLine();
 		content=scanner.nextLine();
 		System.out.printf("[%d]작성자:%s\n",i,wirter);
 		System.out.printf("[%d]방문록:%s\n",i,content);
@@ -68,13 +72,14 @@ public class Level1_8 {
 		output+= " 4\t"+boardlist+"\n";
 		//출력
 		System.out.print(header);
-		System.out.printf("%s\n",output);
+		System.out.printf("%s",output);
 		System.out.print(footer);
 		i++;
 
 		//5회
 		//입력
 		wirter=scanner.next();
+		dumy=scanner.nextLine();
 		content=scanner.nextLine();
 		System.out.printf("[%d]작성자:%s\n",i,wirter);
 		System.out.printf("[%d]방문록:%s\n",i,content);
@@ -82,7 +87,7 @@ public class Level1_8 {
 		output+= "5\t"+boardlist+"\n";
 		//출력
 		System.out.print(header);
-		System.out.printf("%s\n",output);
+		System.out.printf("%s",output);
 		System.out.print(footer);
 		i++;
 
