@@ -84,8 +84,28 @@ public class Note { //class start
         //      1. 아이디가 'admin' 이고 비밀번호가 '1234' 모두 동일하면 '로그인성공'
         //      2. 아이디가 다르면 '아이디 정보가 일치하지 않습니다.'
         //      3. 아이디는 일치하고 비밀번호가 다르면 '비밀번호 정보가 일치하지 않습니다'
-        System.out.println("id:"); String id=scanner.next();
+       /* System.out.println("id:"); String id=scanner.next();*/
 
+        /*int i= 2;
+        while(i<10){
+            int j= 1;
+            while(j<10){
+                System.out.printf("%d * %d = %d\n",i,j,i*j);
+                j++;
+            }
+            i++;
+        }*/
+      /*  for(int a=2;a<10;a++){
+            for(int b=1; b<10;b++){
+                System.out.printf("%d * %d = %d\n",a,b,a*b);
+            }
+        }*/
 
+        /*while(true){
+            System.out.println(1);
+        }*/
+       for(int i=1; i>0;i++){
+            System.out.println(i);
+        }
     } //main end
 }// class end

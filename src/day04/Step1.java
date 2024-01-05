@@ -50,9 +50,9 @@ public class Step1 {// class start
         }
 
         //p.115 난수 만들기
-        // 1. MAth random(): 난수/함수
+        // 1. Math random(): 난수/함수
         System.out.println("0이상~1미만 난수/랜덤 생성:"+Math.random());
-        // 2..Random(): 난수 객체
+        // 2. Random(): 난수 객체
         System.out.println(new Random());
         System.out.println(new Random().nextInt());
 
