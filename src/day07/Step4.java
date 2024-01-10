@@ -8,8 +8,6 @@ public class Step4 {//class start
         Scanner scanner= new Scanner(System.in);
         //1. 객체 생성
         Phone[] phoneBook=new Phone[100];
-
-
         //2. 기능 구현
         while(true){
             Phone phone=new Phone();
@@ -41,7 +39,6 @@ public class Step4 {//class start
                         break;
                     }
                 }
-
             }
             else if (ch==2){
                 System.out.print("삭제하고 싶은 번호의 순번을 입력해주세요\n");
