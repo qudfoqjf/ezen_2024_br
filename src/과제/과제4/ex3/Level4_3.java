@@ -31,7 +31,6 @@ public class Level4_3 {
 		for (int i=0;i<point.length;i++){
 			System.out.print(point[i]+" ");
 		}
-
 		/* ----------- */
 	}
 }
