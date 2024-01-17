@@ -48,24 +48,29 @@ public class MemberSys { // class s
 		sc.nextLine();
 		System.out.print("이름:");	String name = sc.nextLine();
 		System.out.print("전화번호:"); String num = sc.nextLine();
-		for (int i=0;i<객체배열.length;i++){
-			if (name.equals(객체배열[i].getName()) && num.equals(객체배열[i].getNum())) {
-				System.out.println("id는 "+객체배열[i].getId()+"입니다.");
-				break;
+		for (int i=0;i<객체배열.length;i++) {
+			if (객체배열[i] != null) {
+				if (name.equals(객체배열[i].getName()) && num.equals(객체배열[i].getNum())) {
+					System.out.println("id는 " + 객체배열[i].getId() + "입니다.");
+					break;
+				}
 			}
 		}
+		System.out.println("회원 정보가 일치하지 않습니다.");
 	}
 	public  static void pwFind(){
 		sc.nextLine();
 		System.out.print("id:");	String id = sc.nextLine();
 		System.out.print("전화번호:"); String num = sc.nextLine();
-		for (int i=0;i<객체배열.length;i++){
-			if (id.equals(객체배열[i].getId()) && num.equals(객체배열[i].getNum())) {
-				System.out.println("pw는 "+객체배열[i].getPw()+"입니다.");
-				break;
+		for (int i=0;i<객체배열.length;i++) {
+			if (객체배열[i] != null) {
+				if (id.equals(객체배열[i].getId()) && num.equals(객체배열[i].getNum())) {
+					System.out.println("pw는 " + 객체배열[i].getPw() + "입니다.");
+					break;
+				}
 			}
 		}
-
+		System.out.println("회원 정보가 일치하지 않습니다.");
 	}
 
 	public static void main(String[] args) {
@@ -77,11 +82,6 @@ public class MemberSys { // class s
 			System.out.print("1.회원가입 2.로그인 3.아이디찾기 4.비밀번호찾기   선택> ");
 			int ch = sc.nextInt();
 
-
-
-
-
-
 			if( ch == 1 ) {
 				signup();
 			}
@@ -92,7 +92,7 @@ public class MemberSys { // class s
 				idFind();
 			}
 			else if( ch == 4 ) {
-
+				pwFind();
 			}
 
 		} // w e
