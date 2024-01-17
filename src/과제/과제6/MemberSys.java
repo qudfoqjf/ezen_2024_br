@@ -55,6 +55,18 @@ public class MemberSys { // class s
 			}
 		}
 	}
+	public  static void pwFind(){
+		sc.nextLine();
+		System.out.print("id:");	String id = sc.nextLine();
+		System.out.print("전화번호:"); String num = sc.nextLine();
+		for (int i=0;i<객체배열.length;i++){
+			if (id.equals(객체배열[i].getId()) && num.equals(객체배열[i].getNum())) {
+				System.out.println("pw는 "+객체배열[i].getPw()+"입니다.");
+				break;
+			}
+		}
+
+	}
 
 	public static void main(String[] args) {
 
