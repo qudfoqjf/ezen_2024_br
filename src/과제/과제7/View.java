@@ -36,6 +36,15 @@ public class View {
         MemberDto memberDto=new MemberDto();
         memberDto.setId(id);
         memberDto.setPw(pw);
+
+        boolean result =Controller.getInstance().login(memberDto);
+
+        if(result){
+            System.out.println("로그인성공");
+        }
+        else{
+            System.out.println("로그인 실패");
+        }
     }
     public static void main(String[] args) {
 
@@ -48,7 +57,7 @@ public class View {
             signup();
         }
         else if( ch == 2 ) {
-
+            login();
         }
         else if( ch == 3 ) {
 
