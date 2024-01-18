@@ -11,4 +11,17 @@ public class Controller {
 
         return result;
     }
+    public boolean login(MemberDto memberDto){
+        boolean result=MemberDao.getInstance().login(memberDto);
+        return result;
+    }
+    public String idFind(MemberDto memberDto){
+        String result=MemberDao.getInstance().idFind(memberDto);
+        return result;
+    }
+    public String pwFind(MemberDto memberDto){
+        String result=MemberDao.getInstance().pwFind(memberDto);
+        return result;
+    }
+
 }
