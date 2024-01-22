@@ -12,7 +12,7 @@ public class Car {
 /*
     // 1. 한국타이어 객체 + 하위객체
     HankookTire hankookTire;
-    // 2. 금호타이어 객체 + 하위객체
+    // 2. 금호타이어 객체 + 하위객체1
     KumhoTire kumhoTire;
     // 3. 타이어 타입 + 하위객체(한국 타이어,금호 타이어)
     Tire tire;
