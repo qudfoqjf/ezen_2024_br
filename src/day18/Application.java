@@ -1,6 +1,6 @@
 package day18;
 
-import com.sun.tools.javac.Main;
+
 import day18.view.MainView;
 
 public class Application {//class start

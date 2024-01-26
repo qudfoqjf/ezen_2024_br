@@ -18,7 +18,7 @@ public class MainView {
                 int ch= scanner.nextInt();
 
                 if(ch==1){MemberView.getInstance().signup();}
-                else if(ch==2){}
+                else if(ch==2){MemberView.getInstance().login();}
                 else{
                     System.out.println("<안내> 알수 없는 기능 번호입니다");
                 }
