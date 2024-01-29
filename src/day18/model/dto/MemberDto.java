@@ -1,23 +1,23 @@
 package day18.model.dto;
 
-//DtO : 데이터 이동 객체
+//DTO : 데이터 이동 객체
 /*
-    관례적
     1. 필드는 private
-    2. 기본생성자, 모든 필드생성자, + 상황에 맞는 생성자
+    2. 기본생성자, 모든필드생성자, + 상황에 맞는 생성자
     3. get/set 메소드 이용
-    4. toString: 주소 대신 필드 정보 출력메소드
+    4. toString : 주소 대신 필드 정보 출력 필드확인용
+*/
 
- */
 public class MemberDto {
-    //1. 필드
+    //1.필드
     private int mno;
     private String mid;
     private String mpw;
     private String mphone;
-    private String mdate;   // DB 타입변환 필요
-    //2. 생성자
-    public MemberDto() {}
+    private String mdate;   // DB<-->JAVA 타입변환 필요
+
+    //2.생성자
+    public MemberDto(){}
     public MemberDto(int mno, String mid, String mpw, String mphone, String mdate) {
         this.mno = mno;
         this.mid = mid;
@@ -25,14 +25,14 @@ public class MemberDto {
         this.mphone = mphone;
         this.mdate = mdate;
     }
-
+    // + 회원가입에 사용할 생성자
     public MemberDto(String mid, String mpw, String mphone) {
         this.mid = mid;
         this.mpw = mpw;
         this.mphone = mphone;
     }
-    //3. 메소드
 
+    //3.메소드
 
     public int getMno() {
         return mno;
@@ -73,7 +73,7 @@ public class MemberDto {
     public void setMdate(String mdate) {
         this.mdate = mdate;
     }
-    //4. toString
+
     @Override
     public String toString() {
         return "MemberDto{" +
@@ -84,4 +84,4 @@ public class MemberDto {
                 ", mdate='" + mdate + '\'' +
                 '}';
     }
-} //class end
+}

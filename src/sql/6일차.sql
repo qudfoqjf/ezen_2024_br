@@ -30,6 +30,9 @@ select * from member where mid=? and mpw=?;
 select mno from member where mid= 'qweqweqwe';
 #select mno from member where mid=?; 
 
+select * from board;
+delete from board;
+
 
 
 
