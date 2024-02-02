@@ -4,7 +4,7 @@ public class Step1 {
     public static void main(String[] args) {
         // 1. 특정 타입의 필드가 아닌 다형성을 이용한 다양한 타입의 필드
         Box box = new Box();
-        // 2. Object타입 필드에 문자 데이터 대입
+        // 2. Object 타입 필드에 문자 데이터 대입
         box.content = "안녕하세요";
         // 3. 꺼내기
         System.out.println( box.content );
