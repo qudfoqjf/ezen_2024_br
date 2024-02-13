@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ezen_2024_br:jar">
+    <output-path>$PROJECT_DIR$/../..</output-path>
+    <root id="archive" name="ezen_2024_br.jar">
+      <element id="module-output" name="ezen_2024_br" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/sql/mysql-connector-j-8.3.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
